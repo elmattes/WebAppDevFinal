@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Books</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      function MyApp() {
+        const [bookData, setBookData] = React.useState(null);
+        const [authorData, setAuthorData] = React.useState(null);
+
+        React.useEffect(() => {
+          const fetchData = async () => {
+            const booksResponse = await fetch('http://localhost:3000/books');
+            const authorsResponse = await fetch('http://localhost:3000/authors');
+            
+            const books = await booksResponse.json();
+            const authors = await authorsResponse.json();
+            
+            setBookData(books);
+            setAuthorData(authors);
+          };
+          fetchData();
+        }, []);
+
+
+        // gpt generated these two functions for me, w/ some edits from me, ty gpt for your service
+        function renderAuthorBooks(author) {
+          const authorBooks = bookData.filter(book => book.author_id === author.id);
+          return (
+            <div key={author.id}>
+              <h2>{getAuthorName(author.id)}</h2>
+              <p>Email: {author.email}</p>
+              <ul>
+                {authorBooks.map((book) => (
+                  <li key={book.id}>
+                    <strong>Title:</strong> {book.title}, {book.isbn}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          );
+        }
+
+        function getAuthorName(author_id) {
+          const author = authorData.find((author) => author.id === author_id);
+          return author ? author.name : 'Unknown Author';
+        }
+        //
+
+        return (
+          <div>
+            <h1>List of Authors and Books</h1>
+            {authorData && authorData.map((author) => renderAuthorBooks(author))}
+          </div>
+        );
+      }
+
+      const container = document.getElementById('root');
+      const root = ReactDOM.createRoot(container);
+      root.render(<MyApp />);
+    </script>
+  </body>
+</html>

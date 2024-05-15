@@ -1,0 +1,388 @@
+{
+    "authors": [
+        {
+            "id":1,
+            "name":"Donte Connelly",
+            "email":"cecile@langworth.example",
+            "address":"Suite 517 625 Stamm Island, Lake Rayford, RI 79082-1761",
+            "phone":"475-939-3401",
+            "created_at":"2023-12-04T18:51:04.169Z",
+            "updated_at":"2023-12-04T18:51:04.169Z",
+            "url":"http://127.0.0.1:3000/authors/1.json"
+        },
+        {
+            "id":2,
+            "name":"Mitchell Price",
+            "email":"anh.kunze@schultz-haag.test",
+            "address":"Suite 635 440 Dylan Extension, Toryside, ND 78596",
+            "phone":"1-986-000-2215",
+            "created_at":"2023-12-04T18:51:04.178Z",
+            "updated_at":"2023-12-04T18:51:04.178Z",
+            "url":"http://127.0.0.1:3000/authors/2.json"
+        },
+        {
+            "id":3,
+            "name":"Suzann Stoltenberg",
+            "email":"irina@will.test",
+            "address":"Apt. 102 43743 Hauck Ways, South Ruthie, NJ 04720-3423",
+            "phone":"428.638.0661",
+            "created_at":"2023-12-04T18:51:04.186Z",
+            "updated_at":"2023-12-04T18:51:04.186Z",
+            "url":"http://127.0.0.1:3000/authors/3.json"
+        },
+        {
+            "id":4,
+            "name":"Clay Cummerata",
+            "email":"taunya@corkery-swift.example",
+            "address":"4875 Collier Groves, Graycechester, RI 69592",
+            "phone":"108.042.1887",
+            "created_at":"2023-12-04T18:51:04.193Z",
+            "updated_at":"2023-12-04T18:51:04.193Z",
+            "url":"http://127.0.0.1:3000/authors/4.json"
+        },
+        {
+            "id":5,
+            "name":"Andrea Marquardt",
+            "email":"youlanda@kuhlman.test",
+            "address":"394 Schowalter Freeway, New Lupe, CO 27194",
+            "phone":"1-892-362-6266",
+            "created_at":"2023-12-04T18:51:04.201Z",
+            "updated_at":"2023-12-04T18:51:04.201Z",
+            "url":"http://127.0.0.1:3000/authors/5.json"
+        },
+		        {
+            "id":6,
+            "name":"Clair Strosin MD",
+            "email":"liberty_lueilwitz@herzog-mohr.test",
+            "address":"Suite 574 179 Johnson Coves, Gleasonbury, NH 06726",
+            "phone":"(520) 401-9610",
+            "created_at":"2023-12-04T18:51:04.207Z",
+            "updated_at":"2023-12-04T18:51:04.207Z",
+            "url":"http://127.0.0.1:3000/authors/6.json"
+        },
+        {
+            "id":7,
+            "name":"Earleen Metz",
+            "email":"wilburn.cronin@runte-oconner.test",
+            "address":"9116 Harold Ferry, Beershire, ME 70088",
+            "phone":"1-646-851-8784",
+            "created_at":"2023-12-04T18:51:04.214Z",
+            "updated_at":"2023-12-04T18:51:04.214Z",
+            "url":"http://127.0.0.1:3000/authors/7.json"
+        },
+        {
+            "id":8,
+            "name":"Basil Walsh LLD",
+            "email":"angelique@walter-davis.example",
+            "address":"Suite 461 365 Jeanna Run, Lake Sharynport, PA 28668-9601",
+            "phone":"162-623-3125",
+            "created_at":"2023-12-04T18:51:04.221Z",
+            "updated_at":"2023-12-04T18:51:04.221Z",
+            "url":"http://127.0.0.1:3000/authors/8.json"
+        },
+        {
+            "id":9,
+            "name":"Sebastian Erdman",
+            "email":"karri_schaefer@romaguera-auer.example",
+            "address":"98904 Morissette Throughway, West Quinnbury, NE 98406-3617",
+            "phone":"570-098-8069",
+            "created_at":"2023-12-04T18:51:04.230Z",
+            "updated_at":"2023-12-04T18:51:04.230Z",
+            "url":"http://127.0.0.1:3000/authors/9.json"
+        },
+        {
+            "id":10,
+            "name":"Shandi Beer",
+            "email":"shane@davis.test",
+            "address":"Suite 151 40624 Greenfelder Cove, South Linh, NV 89746-1636",
+            "phone":"1-844-572-3331",
+            "created_at":"2023-12-04T18:51:04.238Z",
+            "updated_at":"2023-12-04T18:51:04.238Z",
+            "url":"http://127.0.0.1:3000/authors/10.json"
+        },
+        {
+            "id":11,
+            "name":"Mohammad Zieme",
+            "email":"leandro@harvey-kuhic.test",
+            "address":"Apt. 552 4406 Altenwerth Harbor, Pricebury, KY 46234-7648",
+            "phone":"270-912-5949",
+            "created_at":"2023-12-04T18:51:04.245Z",
+            "updated_at":"2023-12-04T18:51:04.245Z",
+            "url":"http://127.0.0.1:3000/authors/11.json"
+        },
+        {
+            "id":12,
+            "name":"Dot Langosh V",
+            "email":"lynell@goyette.test",
+            "address":"Apt. 672 35145 Heidenreich Viaduct, Mosciskiborough, NM 37357",
+            "phone":"230-325-8252",
+            "created_at":"2023-12-04T18:51:04.252Z",
+            "updated_at":"2023-12-04T18:51:04.252Z",
+            "url":"http://127.0.0.1:3000/authors/12.json"
+        },
+        {
+            "id":13,
+            "name":"Rev. Edwin Luettgen",
+            "email":"fredrick@green-welch.test",
+            "address":"Suite 726 984 Adrian Lakes, South Andyfurt, AL 08072",
+            "phone":"577-510-6523",
+            "created_at":"2023-12-04T18:51:04.260Z",
+            "updated_at":"2023-12-04T18:51:04.260Z",
+            "url":"http://127.0.0.1:3000/authors/13.json"
+        },
+        {
+            "id":14,
+            "name":"Darryl Vandervort Sr.",
+            "email":"kina@larkin.test",
+            "address":"Suite 819 944 Thaddeus Via, South Jameybury, ID 64772-1970",
+            "phone":"1-948-422-0200",
+            "created_at":"2023-12-04T18:51:04.268Z",
+            "updated_at":"2023-12-04T18:51:04.268Z",
+            "url":"http://127.0.0.1:3000/authors/14.json"
+        },
+        {
+            "id":15,
+            "name":"Annita Torphy DDS",
+            "email":"edgardo.schulist@baumbach-rutherford.example",
+            "address":"Apt. 270 3838 Ross Ridge, Enriqueburgh, NC 24745-3553",
+            "phone":"137-433-6861",
+            "created_at":"2023-12-04T18:51:04.275Z",
+            "updated_at":"2023-12-04T18:51:04.275Z",
+            "url":"http://127.0.0.1:3000/authors/15.json"
+        },
+        {
+            "id":16,
+            "name":"Ali Schaefer",
+            "email":"olen.hansen@hegmann.example",
+            "address":"197 Waelchi Court, Kassulkefort, IL 15782-7344",
+            "phone":"101-212-9714",
+            "created_at":"2023-12-04T18:51:04.286Z",
+            "updated_at":"2023-12-04T18:51:04.286Z",
+            "url":"http://127.0.0.1:3000/authors/16.json"
+        },
+        {
+            "id":17,
+            "name":"Emiko Cummings",
+            "email":"yong.davis@hegmann-powlowski.test",
+            "address":"Apt. 186 2474 Nicky Ramp, Hillstown, IL 32237-5877",
+            "phone":"762.777.1408",
+            "created_at":"2023-12-04T18:51:04.299Z",
+            "updated_at":"2023-12-04T18:51:04.299Z",
+            "url":"http://127.0.0.1:3000/authors/17.json"
+        },
+        {
+            "id":18,
+            "name":"Archie Christiansen",
+            "email":"roy.fisher@ondricka.test",
+            "address":"26631 Ozie Islands, New Alfonzoburgh, OR 25231-4938",
+            "phone":"475-953-1267",
+            "created_at":"2023-12-04T18:51:04.306Z",
+            "updated_at":"2023-12-04T18:51:04.306Z",
+            "url":"http://127.0.0.1:3000/authors/18.json"
+        },
+        {
+            "id":19,
+            "name":"Edgardo Wintheiser",
+            "email":"arnold@marvin.example",
+            "address":"Apt. 660 69695 Effertz Island, Wilsonbury, RI 43096",
+            "phone":"317.188.6477",
+            "created_at":"2023-12-04T18:51:04.314Z",
+            "updated_at":"2023-12-04T18:51:04.314Z",
+            "url":"http://127.0.0.1:3000/authors/19.json"
+        },
+        {
+            "id":20,
+            "name":"Collen Huels",
+            "email":"soledad_wolf@dach-metz.example",
+            "address":"7990 Robel Pine, Annemariebury, OK 16335",
+            "phone":"1-766-689-5424",
+            "created_at":"2023-12-04T18:51:04.322Z",
+            "updated_at":"2023-12-04T18:51:04.322Z",
+            "url":"http://127.0.0.1:3000/authors/20.json"
+		}
+    ],
+
+    "books": [
+        {
+            "id":1,
+            "title":"For Whom the Bell Tolls",
+            "author_id":1,
+            "isbn":"ISBN 723-4-704-92537-9",
+            "created_at":"2023-12-04T18:51:04.355Z",
+            "updated_at":"2023-12-04T18:51:04.355Z",
+            "url":"http://127.0.0.1:3000/books/1.json"
+        },
+        {
+            "id":2,
+            "title":"A Farewell to Arms",
+            "author_id":7,
+            "isbn":"ISBN 385-4-918-93294-4",
+            "created_at":"2023-12-04T18:51:04.367Z",
+            "updated_at":"2023-12-04T18:51:04.367Z",
+            "url":"http://127.0.0.1:3000/books/2.json"
+        },
+        {
+            "id":3,
+            "title":"The Far-Distant Oxus",
+            "author_id":8,
+            "isbn":"ISBN 819-5-154-98007-4",
+            "created_at":"2023-12-04T18:51:04.375Z",
+            "updated_at":"2023-12-04T18:51:04.375Z",
+            "url":"http://127.0.0.1:3000/books/3.json"
+        },
+        {
+            "id":4,
+            "title":"When the Green Woods Laugh",
+            "author_id":7,
+            "isbn":"ISBN 681-7-760-28914-7",
+            "created_at":"2023-12-04T18:51:04.384Z",
+            "updated_at":"2023-12-04T18:51:04.384Z",
+            "url":"http://127.0.0.1:3000/books/4.json"
+        },
+        {
+            "id":5,
+            "title":"When the Green Woods Laugh",
+            "author_id":20,
+            "isbn":"ISBN 466-1-542-24866-7",
+            "created_at":"2023-12-04T18:51:04.393Z",
+            "updated_at":"2023-12-04T18:51:04.393Z",
+            "url":"http://127.0.0.1:3000/books/5.json"
+        },
+        {
+            "id":6,
+            "title":"In Death Ground",
+            "author_id":4,
+            "isbn":"ISBN 601-8-103-66373-5",
+            "created_at":"2023-12-04T18:51:04.403Z",
+            "updated_at":"2023-12-04T18:51:04.403Z",
+            "url":"http://127.0.0.1:3000/books/6.json"
+        },
+        {
+            "id":7,
+            "title":"Eyeless in Gaza",
+            "author_id":13,
+            "isbn":"ISBN 195-2-334-80042-4",
+            "created_at":"2023-12-04T18:51:04.411Z",
+            "updated_at":"2023-12-04T18:51:04.411Z",
+            "url":"http://127.0.0.1:3000/books/7.json"
+        },
+        {
+            "id":8,
+            "title":"That Good Night",
+            "author_id":5,
+            "isbn":"ISBN 292-3-682-10763-7",
+            "created_at":"2023-12-04T18:51:04.419Z",
+            "updated_at":"2023-12-04T18:51:04.419Z",
+            "url":"http://127.0.0.1:3000/books/8.json"
+        },
+        {
+            "id":9,
+            "title":"Stranger in a Strange Land",
+            "author_id":18,
+            "isbn":"ISBN 942-8-027-54061-8",
+            "created_at":"2023-12-04T18:51:04.428Z",
+            "updated_at":"2023-12-04T18:51:04.428Z",
+            "url":"http://127.0.0.1:3000/books/9.json"
+        },
+        {
+            "id":10,
+            "title":"O Jerusalem!",
+            "author_id":16,
+            "isbn":"ISBN 765-4-465-89608-5",
+            "created_at":"2023-12-04T18:51:04.435Z",
+            "updated_at":"2023-12-04T18:51:04.435Z",
+            "url":"http://127.0.0.1:3000/books/10.json"
+        },
+        {
+            "id":11,
+            "title":"Specimen Days",
+            "author_id":1,
+            "isbn":"ISBN 181-9-134-92727-9",
+            "created_at":"2023-12-04T18:51:04.442Z",
+            "updated_at":"2023-12-04T18:51:04.442Z",
+            "url":"http://127.0.0.1:3000/books/11.json"
+        },
+        {
+            "id":12,
+            "title":"Vanity Fair",
+            "author_id":7,
+            "isbn":"ISBN 509-1-595-53119-9",
+            "created_at":"2023-12-04T18:51:04.450Z",
+            "updated_at":"2023-12-04T18:51:04.450Z",
+            "url":"http://127.0.0.1:3000/books/12.json"
+        },
+        {
+            "id":13,
+            "title":"An Instant In The Wind",
+            "author_id":15,
+            "isbn":"ISBN 034-2-697-10589-0",
+            "created_at":"2023-12-04T18:51:04.458Z",
+            "updated_at":"2023-12-04T18:51:04.458Z",
+            "url":"http://127.0.0.1:3000/books/13.json"
+        },
+        {
+            "id":14,
+            "title":"To Sail Beyond the Sunset",
+            "author_id":13,
+            "isbn":"ISBN 809-5-984-33291-7",
+            "created_at":"2023-12-04T18:51:04.466Z",
+            "updated_at":"2023-12-04T18:51:04.466Z",
+            "url":"http://127.0.0.1:3000/books/14.json"
+        },
+        {
+            "id":15,
+            "title":"An Acceptable Time",
+            "author_id":1,
+            "isbn":"ISBN 743-1-868-09505-6",
+            "created_at":"2023-12-04T18:51:04.474Z",
+            "updated_at":"2023-12-04T18:51:04.474Z",
+            "url":"http://127.0.0.1:3000/books/15.json"
+        },
+        {
+            "id":16,
+            "title":"When the Green Woods Laugh",
+            "author_id":15,
+            "isbn":"ISBN 753-2-512-09402-3",
+            "created_at":"2023-12-04T18:51:04.481Z",
+            "updated_at":"2023-12-04T18:51:04.481Z",
+            "url":"http://127.0.0.1:3000/books/16.json"
+        },
+        {
+            "id":17,
+            "title":"The Widening Gyre",
+            "author_id":20,
+            "isbn":"ISBN 215-0-209-30288-0",
+            "created_at":"2023-12-04T18:51:04.489Z",
+            "updated_at":"2023-12-04T18:51:04.489Z",
+            "url":"http://127.0.0.1:3000/books/17.json"
+        },
+        {
+            "id":18,
+            "title":"Frequent Hearses",
+            "author_id":8,
+            "isbn":"ISBN 884-2-514-31828-7",
+            "created_at":"2023-12-04T18:51:04.497Z",
+            "updated_at":"2023-12-04T18:51:04.497Z",
+            "url":"http://127.0.0.1:3000/books/18.json"
+        },
+        {
+            "id":19,
+            "title":"Blithe Spirit",
+            "author_id":8,
+            "isbn":"ISBN 820-8-927-01382-3",
+            "created_at":"2023-12-04T18:51:04.504Z",
+            "updated_at":"2023-12-04T18:51:04.504Z",
+            "url":"http://127.0.0.1:3000/books/19.json"
+        },
+        {
+            "id":20,
+            "title":"Lilies of the Field",
+            "author_id":7,
+            "isbn":"ISBN 412-4-803-30246-6",
+            "created_at":"2023-12-04T18:51:04.512Z",
+            "updated_at":"2023-12-04T18:51:04.512Z",
+            "url":"http://127.0.0.1:3000/books/20.json"
+        }
+    ]
+}
+  
